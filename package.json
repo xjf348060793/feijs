@@ -1,0 +1,33 @@
+{
+  "name": "feijs-tools",
+  "version": "0.0.2",
+  "description": "frontend tool",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib/**/*",
+    "@types/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.9.2"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "build": "rollup -c"
+
+  },
+  "keywords": [
+    "f-tool"
+  ],
+  "author": "xiaodafei",
+  "license": "ISC",
+  "types": "@types/index.d.ts"
+}
