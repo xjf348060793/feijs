@@ -1,1 +1,1 @@
-export * from './storage'
+export {local, session} from './storage'
